@@ -1,0 +1,98 @@
+/* General Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #e2d2d2;
+  color: #ab1313;
+  line-height: 1.6;
+}
+
+h1, h2 {
+  font-weight: 600;
+}
+
+/* Header Navigation */
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 10px 0;
+}
+
+nav ul {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+}
+
+nav ul li {
+  margin: 0 15px;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+nav ul li a:hover {
+  text-decoration: underline;
+}
+
+section {
+  padding: 40px;
+  margin: 20px;
+}
+
+#about {
+  background-color: #fff;
+  text-align: center;
+}
+
+#skills ul {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+#skills ul li {
+  margin: 5px 15px;
+  background-color: #474444;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+#contact {
+  background-color: #fff;
+  text-align: center;
+}
+
+footer {
+  text-align: center;
+  padding: 10px;
+  background-color: #040404;
+  color: #fff;
+}
+
+footer p {
+  font-size: 14px;
+}
+
+/* Hover Effect */
+h1:hover {
+  color: #007bff;
+}
+
+.profile-pic {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%; 
+  object-fit: cover;
+  margin: 20px 0;
+}
+
